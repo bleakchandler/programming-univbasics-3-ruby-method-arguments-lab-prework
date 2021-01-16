@@ -11,7 +11,7 @@ end
 
 introduction myname
 
-def introduction_with_languag (name, language = 'Ruby')
+def introduction_with_languag (name, language)
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end  
 
