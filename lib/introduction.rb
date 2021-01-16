@@ -3,14 +3,19 @@
 # thing is NOT to "complete labs," the important thing is to learn the skills you need
 # in order to complete the rest of this course and be ready for the next course!
 
+myname = "Bleak"
+
+def introduction name
+  puts "Hi, my name is #{name}."
 
 
+introduction myname
 
-
-
-
-
-
+def introduction_with_languag (name, language = 'Ruby')
+  puts "Hi, my name is #{name} and I am learning to program in #{language}."
+  
+  introduction_with_language("Bleak")
+end
 
 
 
