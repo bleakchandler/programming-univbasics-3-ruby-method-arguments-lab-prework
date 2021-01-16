@@ -7,15 +7,16 @@ myname = "Bleak"
 
 def introduction name
   puts "Hi, my name is #{name}."
-
+end
 
 introduction myname
 
 def introduction_with_languag (name, language = 'Ruby')
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
-  
+end  
+
   introduction_with_language("Bleak")
-end
+
 
 
 
